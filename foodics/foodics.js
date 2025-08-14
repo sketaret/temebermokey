@@ -38,14 +38,13 @@
                 }
                 if (confirmed) {
                     await setNote(noteField, "");
-                    setTimeout(() => {
-                        if (noteField.value.includes("تم الدفع فودافون كاش")) {
+                    screateWarningPopup                        if (noteField.value.includes("تم الدفع فودافون كاش")) {
                             originalSubmit.disabled = false;
                             originalSubmit.click();
                         } else {
-                            createWarningPopup('⚠️ حدث خطأ: لم يتم كتابة الملاحظة بشكل صحيح!');
+                        originalSubmit.disabled = false;
+                        originalSubmit.click();
                         }
-                    }, 300);
                 } else {
                     originalSubmit.disabled = false;
                     originalSubmit.click();
