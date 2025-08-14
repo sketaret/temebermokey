@@ -37,7 +37,7 @@
                     return;
                 }
                 if (confirmed) {
-                    await setNote(noteField, "تم الدفع فودافون كاش");
+                    await setNote(noteField, "");
                     setTimeout(() => {
                         if (noteField.value.includes("تم الدفع فودافون كاش")) {
                             originalSubmit.disabled = false;
