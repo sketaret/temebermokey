@@ -1,0 +1,12 @@
+{
+  "duration": 35,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "frames": 1050,
+  "video": "H.264",
+  "audio": "AAC 48kHz stereo 256kbps",
+  "narration_source": "content (2).mp3",
+  "narration_complete": true,
+  "time_stretch": false,
+  "sha256": "230091c5905c5d6c9df1e9e611001fcdbf8252a351d1a4d0f772f3defd2dd6e4"
+}
